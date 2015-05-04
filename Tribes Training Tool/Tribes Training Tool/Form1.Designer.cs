@@ -77,6 +77,7 @@
             this.label18 = new System.Windows.Forms.Label();
             this.textBoxWarpX = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label39 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.checkBoxOnlyVelocity = new System.Windows.Forms.CheckBox();
             this.checkBoxReplayLoop = new System.Windows.Forms.CheckBox();
@@ -120,7 +121,6 @@
             this.label26 = new System.Windows.Forms.Label();
             this.labelTimerSpeed = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -356,9 +356,9 @@
             // 
             // tabControl1
             // 
-            this.tabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.tabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
@@ -384,18 +384,18 @@
             // label30
             // 
             this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(32, 77);
+            this.label30.Location = new System.Drawing.Point(147, 218);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(367, 52);
             this.label30.TabIndex = 1;
             this.label30.Text = "Find the tribes game in the top left of this program, and select it.\r\n\r\n\r\nNote: T" +
-                "hings the mention bots or ai only works on the \"Target Practice\" map\r\n";
+    "hings the mention bots or ai only works on the \"Target Practice\" map\r\n";
             // 
             // label29
             // 
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(28, 38);
+            this.label29.Location = new System.Drawing.Point(143, 179);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(125, 24);
             this.label29.TabIndex = 0;
@@ -671,6 +671,16 @@
             this.tabPage2.Text = "Route Replayer";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.Location = new System.Drawing.Point(17, 367);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(119, 60);
+            this.label39.TabIndex = 43;
+            this.label39.Text = "F1: Record\r\nF2: Playback\r\nF3: Playback AI";
+            // 
             // label33
             // 
             this.label33.AutoSize = true;
@@ -801,7 +811,7 @@
             this.label24.Size = new System.Drawing.Size(278, 26);
             this.label24.TabIndex = 28;
             this.label24.Text = "Plays back your recording, \r\nwith a bot insted of you only works on target practi" +
-                "ce map\r\n";
+    "ce map\r\n";
             // 
             // label23
             // 
@@ -811,7 +821,7 @@
             this.label23.Size = new System.Drawing.Size(270, 26);
             this.label23.TabIndex = 27;
             this.label23.Text = "Plays back your recording\r\nNote: Hold down ski during the playback for best resul" +
-                "ts";
+    "ts";
             // 
             // label22
             // 
@@ -1074,16 +1084,6 @@
             this.label34.Size = new System.Drawing.Size(40, 13);
             this.label34.TabIndex = 2;
             this.label34.Text = "0.1.2.0";
-            // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.Location = new System.Drawing.Point(17, 367);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(119, 60);
-            this.label39.TabIndex = 43;
-            this.label39.Text = "F1: Record\r\nF2: Playback\r\nF3: Playback AI";
             // 
             // Form1
             // 
