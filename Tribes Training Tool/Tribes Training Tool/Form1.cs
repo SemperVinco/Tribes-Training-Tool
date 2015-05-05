@@ -11,18 +11,6 @@ using System.Globalization;
 using System.Diagnostics;
 using System.IO;
 
-/* Plans
-    -Booster, gain speed instantaneously
-    -Energy reset
-    -Replay Scrubbing / Slowmotion
-    -Replay / Warp Integration
-    -Overlay
-    -Clean up code
-    -Insta respawns
-    -Rockbounce consistency checker
-    -Icon (sanic?)
-    -Improve GUI
-*/
 
 
 namespace Tribes_Training_Tool {
