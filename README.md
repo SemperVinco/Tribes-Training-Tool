@@ -1,9 +1,9 @@
 Tribes-Training-Tool
 ====================
 
-A program which allow you to train your tribes skill
-Specialised for capper training
-Only works in offline training
+A program to train your Tribes: Ascend capping skill.
+
+Only works in offline training mode.
 
 ## Feature ideas
 - Booster, gain speed instantaneously
@@ -16,6 +16,4 @@ Only works in offline training
 - Icon (sanic?)
 - Improve GUI
 
-By **Fr0sZ**
-
-Modified by CptSemer
+Made by Fr0sZ, forked by CptSemer
